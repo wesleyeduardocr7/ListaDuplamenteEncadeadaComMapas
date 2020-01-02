@@ -1,5 +1,5 @@
 
-package tadmapa;
+package fontes;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -9,7 +9,7 @@ import java.util.Map;
  * @author Wesley Eduardo
  */
 
-public class TadMapa {
+public class Principal {
 
     public static void main(String[] args) {
         
@@ -34,8 +34,6 @@ public class TadMapa {
             Pessoa pessoa = new Pessoa();
             pessoa.setId(key);
             pessoa.setNome(value);   
-            
-            System.out.println(key);
             
             if(key%2 == 0){                
                 controle.addInicio(pessoa);   
